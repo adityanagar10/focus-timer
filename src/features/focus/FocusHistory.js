@@ -26,13 +26,13 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
               data={focusHistory}
               renderItem={HistoryItem}
             />
-          </>
-        )}
-      </SafeAreaView>
-      <View>
+          <View>
         <RoundedButton size = {75} title = "Clear" onPress={() => onClear()} />
       </View>
     </>
+        )}
+      </SafeAreaView>
+      </>
   );
 };
 

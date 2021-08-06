@@ -20,7 +20,7 @@ export default function App() {
   };
 
   const onClear = () => {
-      //to add
+    setFocusHistory([]);
   }
   
   return (
@@ -56,4 +56,3 @@ const styles = StyleSheet.create({
     color: 'white',
   },
 });
-
